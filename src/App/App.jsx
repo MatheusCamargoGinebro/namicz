@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import LandingPage from './Pages/LandingPage/LandingPage'
-import MapScreen from './Pages/MapScreen/MapScreen'
+import LandingPage from './Pages/LandingPage'
+import MapScreen from './Pages/MapScreen'
 
 function App() {
   return (
