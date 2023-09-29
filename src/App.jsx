@@ -1,12 +1,12 @@
-import './App.css'
+import * as React from 'react';
+import Map from 'react-map-gl';
 
 function App() {
-
   return (
     <>
-      <h1 className=''>teste</h1>
+      oi
     </>
-  )
+  );
 }
 
 export default App
