@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../../Components/Header/Header';
 import { Typewriter } from 'react-simple-typewriter';
-import namiczImg from '../../assets/images/namicz-icon.svg';
+// import namiczImg from '';
 import UnderlineTx from '../../Components/Basic/UnderlineTx';
 
 function LandingPage() {
@@ -63,7 +63,7 @@ function LandingPage() {
 
       <div className='mt-36 w-full flex justify-evenly'>
         <div className=' w-96 h-96'>
-          <img src={namiczImg} alt="namiczLogo" className='' />
+          <img src="../../assets/images/namicz-icon.svg" alt="namiczLogo" className='' />
         </div>
 
         <div className='border-2 border-slate-800 w-[45rem] h-96'>
