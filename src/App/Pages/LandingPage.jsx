@@ -61,11 +61,11 @@ function LandingPage() {
       </div>
 
       <div className='w-full h-screen bg-slate-700 flex justify-evenly items-center'>
-        <div className=' w-96 h-96 bg-slate-50'>
-          <img src={namiczImg} alt="namiczLogo" />
+        <div className='bg-slate-50 cursor-pointer'>
+          <img src={namiczImg} alt="namiczLogo" className=' w-96 h-96  shadow-2xl hover:scale-105 duration-150'/>
         </div>
 
-        <div className='border-[1px] border-slate-800 w-[45rem] h-fit'>
+        <div className='border-[1px] border-slate-800 w-[45rem] h-fit shadow-2xl hover:scale-105 duration-100 cursor-pointer'>
           <div className='w-full bg-slate-200  border-b-[1px] border-slate-800 py-5 pl-4'>
             <h1 className='text-xl'><UnderlineTx text="O que é isso?"/></h1>
           </div>
