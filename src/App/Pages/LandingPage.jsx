@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Header from '../../Components/Header/Header';
 import { Typewriter } from 'react-simple-typewriter';
 import UnderlineTx from '../../Components/Basic/UnderlineTx';
-
-//import namiczImg from '../../assets/images/namicz-icon.svg';
+import SearchIcon from '@mui/icons-material/Search';
+import namiczImg from '../../assets/images/namicz-Icon.svg';
 
 function LandingPage() {
   const [showNamicz, setshowNamicz] = useState(false);
@@ -13,10 +13,8 @@ function LandingPage() {
   return (
     <>
       <Header />
-      <div className='mb-44 flex' />
-
-      <div className='text-center justify-center w-full'>
-        <h1 className='text-2xl'>
+      <div className='h-screen w-full flex items-center text-center justify-center'>
+        <h1 className='text-4xl'>
           <Typewriter
             words={['Bem vindo ao ']}
             loop={1}
@@ -62,17 +60,17 @@ function LandingPage() {
         </h1>
       </div>
 
-      <div className='mt-36 w-full flex justify-evenly'>
-        {/* <div className=' w-96 h-96'>
-          <img src="https://namicz.vercel.app/assets/namicz-Icon-e01cc965.svg" alt="namiczLogo" />
-        </div> */}
+      <div className='w-full h-screen bg-slate-700 flex justify-evenly items-center'>
+        <div className=' w-96 h-96 bg-slate-50'>
+          <img src={namiczImg} alt="namiczLogo" />
+        </div>
 
-        <div className='border-2 border-slate-800 w-[45rem] h-96'>
-          <div className='w-full bg-slate-300  border-b-[1px] border-slate-800 py-5 pl-4'>
+        <div className='border-[1px] border-slate-800 w-[45rem] h-fit'>
+          <div className='w-full bg-slate-200  border-b-[1px] border-slate-800 py-5 pl-4'>
             <h1 className='text-xl'><UnderlineTx text="O que é isso?"/></h1>
           </div>
           <div>
-            <div className='p-5'>
+            <div className='py-5 px-14 bg-white'>
               <h1>
                 O NAMICZ é uma plataforma revolucionária que fornece acesso gratuito a uma riqueza de dados demográficos do IBGE. Com foco na visualização de informações detalhadas sobre nomes de pessoas por região do Brasil, esta ferramenta intuitiva permite aos usuários explorar e analisar facilmente as informações geográficas e demográficas valiosas fornecidas pelo IBGE.
               </h1>
@@ -80,8 +78,9 @@ function LandingPage() {
             </div>
             
           </div>
-          <div className='bg-slate-700 w-full h-3 relative mb-0 mt-24'>
-
+          <div className='bg-white pr-14 w-full h-24 flex justify-end items-center'>
+            <a href="/Map" className='flex items-center justify-center gap-1 h-11 p-1 pr-2 border-[1px] border-slate-400 text-slate-50 bg-slate-800 hover:bg-slate-700 hover:w-fit hover:px-3 duration-75'><SearchIcon className='text-slate-50' size={35}/> <p>Ver Mapa</p>
+            </a>
           </div>
         </div>
       </div>
