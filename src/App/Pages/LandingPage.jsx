@@ -61,7 +61,29 @@ function LandingPage() {
         </h1>
       </div>
 
-      
+      <div className='mt-36 w-full flex justify-evenly'>
+        <div className=' w-96 h-96'>
+          <img src={namiczImg} alt="namiczLogo" className='' />
+        </div>
+
+        <div className='border-2 border-slate-800 w-[45rem] h-96'>
+          <div className='w-full bg-slate-300  border-b-[1px] border-slate-800 py-5 pl-4'>
+            <h1 className='text-xl'><UnderlineTx text="O que é isso?"/></h1>
+          </div>
+          <div>
+            <div className='p-5'>
+              <h1>
+                O NAMICZ é uma plataforma revolucionária que fornece acesso gratuito a uma riqueza de dados demográficos do IBGE. Com foco na visualização de informações detalhadas sobre nomes de pessoas por região do Brasil, esta ferramenta intuitiva permite aos usuários explorar e analisar facilmente as informações geográficas e demográficas valiosas fornecidas pelo IBGE.
+              </h1>
+              
+            </div>
+            
+          </div>
+          <div className='bg-slate-700 w-full h-3 relative mb-0 mt-24'>
+
+          </div>
+        </div>
+      </div>
     </>
   );
 }
