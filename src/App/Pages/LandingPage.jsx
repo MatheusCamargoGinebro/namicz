@@ -3,7 +3,7 @@ import Header from '../../Components/Header/Header';
 import { Typewriter } from 'react-simple-typewriter';
 import UnderlineTx from '../../Components/Basic/UnderlineTx';
 
-import namiczImg from '../../assets/images/namicz-icon.svg';
+//import namiczImg from '../../assets/images/namicz-icon.svg';
 
 function LandingPage() {
   const [showNamicz, setshowNamicz] = useState(false);
@@ -13,7 +13,7 @@ function LandingPage() {
   return (
     <>
       <Header />
-      <div className='mb-32 flex' />
+      <div className='mb-44 flex' />
 
       <div className='text-center justify-center w-full'>
         <h1 className='text-2xl'>
@@ -63,9 +63,9 @@ function LandingPage() {
       </div>
 
       <div className='mt-36 w-full flex justify-evenly'>
-        <div className=' w-96 h-96'>
-          <img src={namiczImg} alt="namiczLogo" className='' />
-        </div>
+        {/* <div className=' w-96 h-96'>
+          <img src="https://namicz.vercel.app/assets/namicz-Icon-e01cc965.svg" alt="namiczLogo" />
+        </div> */}
 
         <div className='border-2 border-slate-800 w-[45rem] h-96'>
           <div className='w-full bg-slate-300  border-b-[1px] border-slate-800 py-5 pl-4'>
