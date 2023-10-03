@@ -2,7 +2,7 @@ import Logo from "../Basic/Logo"
 
 function Footer(){
     return(
-        <div className='w-full h-fit pt-6 bg-slate-200 block text-slate-800' id="Footer">
+        <div className='w-full h-fit mt-20 pt-6 bg-slate-200 block text-slate-800' id="Footer">
 
             <div className='flex justify-between items-center'>
                 <div className='w-[30vw] flex items-center justify-center'>
