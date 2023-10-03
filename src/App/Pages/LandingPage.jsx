@@ -6,6 +6,7 @@ import Slide from "@mui/material/Slide";
 // Components:
 import UnderlineTx from "../../Components/Basic/UnderlineTx";
 import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
 import GoDownBtn from "../../Components/Basic/goDownBtn";
 
 // Images:
@@ -21,8 +22,8 @@ function LandingPage() {
   return (
     <>
       <Header />
-      <div className="block mb-10">
-        <div className="h-[94vh] w-full flex items-center text-center justify-center">
+      <div className="block h-screen">
+        <div className="w-full flex items-center text-center justify-center h-[94vh]">
           <h1 className="text-4xl">
             <Typewriter
               words={["Bem vindo ao "]}
@@ -102,42 +103,56 @@ function LandingPage() {
 
       <div
         id="sobre"
-        className="w-full h-screen bg-slate-700 flex justify-evenly items-center">
-        <div className="bg-slate-50 cursor-pointer">
-          <img
-            src={namiczImg}
-            alt="namiczLogo"
-            className=" w-96 h-96  shadow-2xl hover:scale-105 duration-150"
-          />
-        </div>
-
-        <div className="border-[1px] border-slate-800 w-[45rem] h-fit shadow-2xl hover:scale-105 duration-100 cursor-pointer">
-          <div className="w-full bg-slate-200  border-b-[1px] border-slate-800 py-5 pl-4">
-            <h1 className="text-xl">
-              <UnderlineTx text="O que é isso?" />
-            </h1>
+        className="bg-slate-700 w-full h-full">
+        <div className="h-[95vh] flex justify-evenly items-center">
+          <div className="bg-slate-50 cursor-pointer">
+            <img
+              src={namiczImg}
+              alt="namiczLogo"
+              className=" w-96 h-96  shadow-2xl hover:scale-105 duration-150"
+            />
           </div>
-          <div>
-            <div className="py-5 px-14 bg-white">
-              <h1>
-                O Namicz é uma plataforma revolucionária que fornece acesso
-                gratuito a uma riqueza de dados demográficos do Instituto Brasileiro de Geografia e Estatística. Com foco
-                na visualização de informações detalhadas sobre nomes de pessoas
-                por região do Brasil, esta ferramenta intuitiva permite aos
-                usuários explorar e analisar facilmente as informações
-                geográficas e demográficas valiosas fornecidas pelo IBGE.
+
+          <div className="border-[1px] border-slate-800 w-[45rem] h-fit shadow-2xl hover:scale-105 duration-100 cursor-pointer">
+            <div className="w-full bg-slate-200  border-b-[1px] border-slate-800 py-5 pl-4">
+              <h1 className="text-xl">
+                <UnderlineTx text="O que é isso?" />
               </h1>
             </div>
-          </div>
-          <div className="bg-white pr-14 w-full h-24 flex justify-end items-center">
-            <a
-              href="/Map"
-              className="flex items-center justify-center gap-1 h-11 p-1 pr-2 border-[1px] border-slate-400 text-slate-50 bg-slate-800 hover:bg-slate-700 hover:w-fit hover:px-3 duration-75">
-              <SearchIcon className="text-slate-50" /> <p>Ver Mapa</p>
-            </a>
+            <div>
+              <div className="py-5 px-14 bg-white">
+                <h1>
+                  O Namicz é uma plataforma revolucionária que fornece acesso
+                  gratuito a uma riqueza de dados demográficos do Instituto
+                  Brasileiro de Geografia e Estatística. Com foco na
+                  visualização de informações detalhadas sobre nomes de pessoas
+                  por região do Brasil, esta ferramenta intuitiva permite aos
+                  usuários explorar e analisar facilmente as informações
+                  geográficas e demográficas valiosas fornecidas pelo IBGE.
+                </h1>
+              </div>
+            </div>
+            <div className="bg-white pr-14 w-full h-24 flex justify-end items-center">
+              <a
+                href="/Map"
+                className="flex items-center justify-center gap-1 h-11 p-1 pr-2 border-[1px] border-slate-400 text-slate-50 bg-slate-800 hover:bg-slate-700 hover:w-fit hover:px-3 duration-75">
+                <SearchIcon className="text-slate-50" /> <p>Ver Mapa</p>
+              </a>
+            </div>
           </div>
         </div>
+
+        <div className="w-full flex justify-center pb-5">
+        <GoDownBtn
+          addClasses="bg-slate-50 text-bg-slate-800 hover:bg-slate-100 border-2 border-slate-50 rounded-sm shadow-2xl"
+          goTo="#finalidade"
+        />
+        </div>
       </div>
+
+      <div className="h-screen w-1"></div>
+
+      <Footer/>
     </>
   );
 }
