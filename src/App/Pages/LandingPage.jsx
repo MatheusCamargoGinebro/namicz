@@ -102,7 +102,7 @@ function LandingPage() {
         )}
       </div>
 
-      <div id="sobre" className="bg-slate-700 w-full h-full">
+      <div id="sobre" className="bg-slate-700 w-full h-full shadow-inner">
         <div className="h-[95vh] flex justify-evenly items-center">
           <div className="bg-slate-50 cursor-pointer">
             <img
@@ -149,7 +149,7 @@ function LandingPage() {
         </div>
       </div>
 
-      <div id="finalidade" className="w-full h-screen pt-28">
+      <div id="finalidade" className="w-full h-screen pt-28 shadow-[0_-35px_60px_-15px_rgba(0,0,0,0.3)]">
         <div className="flex justify-center items-center mb-4">
           <div className="border-[1px] border-slate-800 w-[45rem] h-fit shadow-2xl duration-100 ">
             <div className="w-full bg-slate-200  border-b-[1px] border-slate-800 py-5 flex justify-center">
