@@ -282,7 +282,7 @@ function LandingPage() {
               title="GitHub"
               description="GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo."
               image="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png"
-              goTo="github.com"
+              goTo="https://github.com"
             />
             <Card
               title="Material UI"
@@ -294,7 +294,7 @@ function LandingPage() {
               title="Mapbox-gl"
               description="Mapbox GL JS é uma biblioteca JavaScript para renderizar mapas interativos em navegadores da web e aplicativos móveis. Ele fornece uma API para adicionar camadas personalizadas, controles e ferramentas de interação de mapa para o seu aplicativo."
               image="https://seeklogo.com/images/M/mapbox-logo-D6FDDD219C-seeklogo.com.png"
-              goTo="https://docs.mapbox.com/mapbox-gl-js/api/"
+              goTo="https://docs.mapbox.com/"
             />
               <Card
                 title="TailwindCSS"
