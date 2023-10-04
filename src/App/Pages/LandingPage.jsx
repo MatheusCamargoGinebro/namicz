@@ -291,7 +291,7 @@ function LandingPage() {
               goTo="https://material-ui.com/pt/"
             />
             <Card
-              title="Mapbox-gl"
+              title="Mapbox GL"
               description="Mapbox GL JS é uma biblioteca JavaScript para renderizar mapas interativos em navegadores da web e aplicativos móveis. Ele fornece uma API para adicionar camadas personalizadas, controles e ferramentas de interação de mapa para o seu aplicativo."
               image="https://seeklogo.com/images/M/mapbox-logo-D6FDDD219C-seeklogo.com.png"
               goTo="https://docs.mapbox.com/"
