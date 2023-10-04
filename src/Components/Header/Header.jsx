@@ -28,8 +28,8 @@ function Header() {
             </a>
           </li> 
           <li className="mr-5">
-            <a href="#envolvidos" className="text-slate-500 hover:text-black">
-              envolvidos
+            <a href="#tecnologias" className="text-slate-500 hover:text-black">
+              tecnologias
             </a>
           </li>
           <li className="mr-5">
