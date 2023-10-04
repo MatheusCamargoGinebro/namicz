@@ -289,19 +289,19 @@ function LandingPage() {
               description="Material-UI é uma biblioteca de componentes simples e personalizáveis para construir aplicativos React mais rápidos, bonitos e acessíveis. A biblioteca de componentes React para um desenvolvimento web mais rápido e fácil. Crie interfaces de usuário bonitas e responsivas usando os componentes Material Design."
               image="https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png"
               goTo="https://material-ui.com/pt/"
-              />
+            />
             <Card
               title="Mapbox-gl"
               description="Mapbox GL JS é uma biblioteca JavaScript para renderizar mapas interativos em navegadores da web e aplicativos móveis. Ele fornece uma API para adicionar camadas personalizadas, controles e ferramentas de interação de mapa para o seu aplicativo."
               image="https://seeklogo.com/images/M/mapbox-logo-D6FDDD219C-seeklogo.com.png"
               goTo="https://docs.mapbox.com/"
             />
-              <Card
-                title="TailwindCSS"
-                description="Tailwind CSS é um framework CSS de código aberto que utiliza uma abordagem de utilitários CSS para construir projetos customizados. Ele fornece classes de baixo nível que você pode combinar para criar qualquer interface de usuário que você desejar."
-                image="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
-                goTo="https://tailwindcss.com/"
-              />
+            <Card
+              title="TailwindCSS"
+              description="Tailwind CSS é um framework CSS de código aberto que utiliza uma abordagem de utilitários CSS para construir projetos customizados. Ele fornece classes de baixo nível que você pode combinar para criar qualquer interface de usuário que você desejar."
+              image="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
+              goTo="https://tailwindcss.com/"
+            />
           </div>
         </div>
       </div>
