@@ -27,7 +27,7 @@ function LandingPage() {
 
   var cont = 0;
   return (
-    <>
+    <body>
       <Header />
       <div className="block h-screen">
         <div className="w-full flex items-center text-center justify-center h-[94vh]">
@@ -307,7 +307,7 @@ function LandingPage() {
       </div>
 
       <Footer />
-    </>
+    </body>
   );
 }
 

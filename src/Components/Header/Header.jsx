@@ -2,7 +2,7 @@
 import Logo from "../../Components/Basic/Logo";
 function Header() {
   return (
-    <div className="fixed z-50 flex justify-between items-center w-full bg-slate-100 py-5 px-10">
+    <div className="fixed z-50 flex justify-between items-center w-screen bg-slate-100 py-5 px-10">
       <Logo />
 
       <div>
