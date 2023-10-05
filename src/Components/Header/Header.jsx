@@ -9,27 +9,27 @@ function Header() {
         <ul className="flex">
           <li className="mr-5">
             <a href="#" className="text-slate-500 hover:text-black">
-              início
+              Início
             </a>
           </li>
           <li className="mr-5">
             <a href="#sobre" className="text-slate-500 hover:text-black">
-              sobre
+              Sobre
             </a>
           </li>
           <li className="mr-5">
             <a href="#finalidade" className="text-slate-500 hover:text-black">
-              finalidade
+              Finalidade
             </a>
           </li> 
           <li className="mr-5">
             <a href="#funcionalidades" className="text-slate-500 hover:text-black">
-              funcionalidades
+              Funcionalidades
             </a>
           </li> 
           <li className="mr-5">
             <a href="#tecnologias" className="text-slate-500 hover:text-black">
-              tecnologias
+              Tecnologias
             </a>
           </li>
           <li className="mr-5">

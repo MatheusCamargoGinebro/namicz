@@ -11,13 +11,13 @@ import Card from "../../Components/Card/Card";
 import Footer from "../../Components/Footer/Footer";
 
 // Images:
-import SearchIcon from "@mui/icons-material/Search";
-import namiczImg from "../../assets/images/namicz-Icon.svg";
-import brasilCardImg from "../../assets/images/brasil-card-image.png";
-import rankingCardImg from "../../assets/images/ranking-card-image.png";
-import searchCardImg from "../../assets/images/search-card-image.png";
+import namiczImg from "../../../public/assets/namicz-Icon.svg";
+import brasilCardImg from "../../../public/assets/brasil-card-image.png";
+import rankingCardImg from "../../../public/assets/ranking-card-image.png";
+import searchCardImg from "../../../public/assets/search-card-image.png";
 
 // Icons:
+import SearchIcon from "@mui/icons-material/Search";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 
 function LandingPage() {
@@ -27,7 +27,7 @@ function LandingPage() {
 
   var cont = 0;
   return (
-    <body>
+    <>
       <Header />
       <div className="block h-screen">
         <div className="w-full flex items-center text-center justify-center h-[94vh]">
@@ -307,7 +307,7 @@ function LandingPage() {
       </div>
 
       <Footer />
-    </body>
+    </>
   );
 }
 

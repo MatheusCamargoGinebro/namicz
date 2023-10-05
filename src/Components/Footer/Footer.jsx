@@ -1,6 +1,6 @@
 import Logo from "../Basic/Logo"
-import ifspImage from "../../assets/images/ifsp-footer-image.png"
-import ibgeImage from "../../assets/images/ibge-footer-image.png"
+import ifspImage from "../../../public/assets/ifsp-footer-image.png"
+import ibgeImage from "../../../public/assets/ibge-footer-image.png"
 
 function Footer(){
     return(
