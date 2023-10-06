@@ -11,10 +11,10 @@ import Card from "../../Components/Card/Card";
 import Footer from "../../Components/Footer/Footer";
 
 // Images:
-import namiczImg from "../../../public/assets/namicz-Icon.svg";
-import brasilCardImg from "../../../public/assets/brasil-card-image.png";
-import rankingCardImg from "../../../public/assets/ranking-card-image.png";
-import searchCardImg from "../../../public/assets/search-card-image.png";
+import namiczImg from "../../assets/namicz-Icon.svg";
+import brasilCardImg from "../../assets/brasil-card-image.png";
+import rankingCardImg from "../../assets/ranking-card-image.png";
+import searchCardImg from "../../assets/search-card-image.png";
 
 // Icons:
 import SearchIcon from "@mui/icons-material/Search";

@@ -1,4 +1,4 @@
-import Namicz from '../../../public/assets/namicz-Icon.svg';
+import Namicz from '../../assets/namicz-Icon.svg';
 
 const Logo = () => {
   return (

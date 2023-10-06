@@ -6,12 +6,13 @@ import React, { useState, useRef, useCallback } from "react";
 import { getNames } from "../../utils/getNames.js";
 
 // json:
-import geojson from "../../../public/json/geojson.json";
-import state from "../../../public/json/state.json";
+import geojson from "../../json/geojson.json";
+import state from "../../json/state.json";
 
 // Components:
 import Map, { Source, Layer } from "react-map-gl";
 import Modal from "../../Components/Modal/Modal.jsx";
+import Drawerbar from "../../Components/Drawerbar/Drawerbar.jsx";
 
 // Icons:
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
@@ -86,7 +87,7 @@ function MapScreen() {
 
   return (
     <>
-    
+      <Drawerbar />
     </>
   );
 }
