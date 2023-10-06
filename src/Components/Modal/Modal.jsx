@@ -1,5 +1,6 @@
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
+import UnderlineTx from '../Basic/UnderlineTx.jsx';
 // import { getCountyMesh } from "./getCountyMesh";
 // import { useEffect, useState } from "react";
 // import { getRankingNames } from "./getRankingNames";
@@ -37,9 +38,9 @@ export default function Modaldiv({
         </div>
 
         <div className="bg-slate-50 pt-2 p-4 w-full">
-          <div className=" mb-2 border-b-[1px] border-slate-950 pb-2">
+          <div className=" mb-2 border-b-[1px] border-slate-300 pb-2">
             <h1 className="border-b-2 border-slate-950 text-xl mx-auto w-fit">
-              Ranking
+              <UnderlineTx text="Ranking" />
             </h1>
           </div>
           <div className="flex justify-around">
@@ -64,7 +65,7 @@ export default function Modaldiv({
               ))}
             </div>
           )}
-          <div className="bg-slate-50 pt-2 mt-3 mx-2 border-t-[1px] rounded-b-sm border-slate-950 text-center w-full">
+          <div className="bg-slate-50 pt-2 mt-3 mx-2 border-t-[1px] rounded-b-sm border-slate-300 text-center w-full">
             <h1>CodeArea: {codeArea}</h1>
           </div>
         </div>

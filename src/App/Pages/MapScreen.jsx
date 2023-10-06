@@ -114,7 +114,7 @@ function MapScreen() {
           interactiveLayerIds={["data"]}
           ref={mapRef}
           // Definições:
-          zoom={2.5}
+          zoom={3}
           doubleClickZoom={false}
           maxPitch={45}
           minPitch={0}
